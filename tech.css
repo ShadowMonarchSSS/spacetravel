@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Barlow+Condensed&display=swap');
+
+body {
+  margin: 0;
+  background: url('./assets/technology/background-technology-desktop.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.logo img {
+  height: 48px;
+}
+
+nav ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+}
+
+nav span {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.numbered-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4.72px;
+  font-size: 28px;
+  margin-left: 10rem;
+}
+
+.numbered-title span {
+  color: #4d4d4d;
+  margin-right: 1rem;
+}
+
+.technology-content {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 10rem;
+  gap: 5rem;
+}
+
+.technology-info {
+  display: flex;
+  gap: 5rem;
+}
+
+.number-indicators {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.number {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: transparent;
+  color: #fff;
+  font-family: 'Bellefair', serif;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.number.active {
+  background: #fff;
+  color: #0B0D17;
+}
+
+.details {
+  max-width: 470px;
+}
+
+.terminology {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  color: #D0D6F9;
+  text-transform: uppercase;
+}
+
+.name {
+  font-family: 'Bellefair', serif;
+  font-size: 56px;
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
+
+.description {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #D0D6F9;
+}
+
+.technology-image img {
+  height: 527px;
+}

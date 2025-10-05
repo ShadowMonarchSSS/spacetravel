@@ -1,0 +1,105 @@
+/* Import fonts if needed */
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Barlow+Condensed&display=swap');
+
+body {
+  margin: 0;
+  background: url(assets/crew/background-crew-desktop.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+}
+
+nav span {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.numbered-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4.72px;
+  font-size: 28px;
+  margin-left: 10rem;
+}
+
+.numbered-title span {
+  color: #4d4d4d;
+  margin-right: 1rem;
+}
+
+.crew-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
+}
+
+.crew-info {
+  max-width: 50%;
+}
+
+.role {
+  font-family: 'Bellefair', serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #4d4d4d;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-family: 'Bellefair', serif;
+  font-size: 56px;
+  text-transform: uppercase;
+  margin: 0.5rem 0;
+}
+
+.bio {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #D0D6F9;
+  margin-bottom: 4rem;
+}
+
+.dot-indicators {
+  display: flex;
+  gap: 1rem;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  background-color: #4d4d4d;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #fff;
+}
+
+.crew-image img {
+  max-height: 70vh;
+}

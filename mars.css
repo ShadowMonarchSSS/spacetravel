@@ -1,0 +1,63 @@
+body {
+    margin:0;
+    padding: 0;
+    background: url(assets/destination/background-destination-desktop.jpg) no-repeat center;
+    background-size: cover;
+    min-height:40dvh;
+    color: white;
+}
+
+
+.list {
+  background-color: rgba(40,45, 20, 0.7);
+  padding:1em;
+}
+
+section {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    min-height:80vh;
+    justify-content: center;
+    gap: 10em;
+    text-align: left;
+}
+h1 {
+    text-align: left;
+    font-size:6em;
+    line-height:0.1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.txt {
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.txt p {
+    font-family: sans-serif;
+    color: darkcyan;
+    font-size: 1.3em;
+    width:400px;
+}
+
+.img img {
+    animation: rotate 3s ease-in-out infinite;
+    animation-timeline: view ();
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360);
+    }
+}
